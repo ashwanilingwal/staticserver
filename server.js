@@ -12,7 +12,7 @@ hbs.registerHelper('getCurrentYear', () => {
 });
 
 hbs.registerHelper('screamIt', (text) => {
-  return text.toUpperCase(); -
+  return text.toUpperCase();
 });
 
 app.get('/', (req, res) => {
